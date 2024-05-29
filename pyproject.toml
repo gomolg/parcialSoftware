@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "agenda-telefonica"
+version = "0.1.0"
+description = ""
+authors = ["gomolg <juan_fe59@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pymongo = "^4.7.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.1"
+pre-commit = "^3.7.1"
+locust = "^2.28.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
