@@ -25,4 +25,4 @@ jobs:
 
     - name: Run tests
       run: |
-        poetry run pytest --cov=test --cov-report=xml
+        poetry run pytest 
